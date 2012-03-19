@@ -1,0 +1,130 @@
+body{
+height:100%;
+background-color:#0f6581;
+}
+#main{
+margin-left:15%;
+margin-right:15%;
+height:auto;
+}
+#header{
+padding-left:150px;
+color:#0f6581;
+padding-top:1px;
+height:175px;
+font-size:1.2em;
+background-color:#0f6581;
+background:url('../images/child.jpg');
+background-repeat:repeat;
+-moz-border-radius-topleft: 25px;
+-moz-border-radius-topright: 25px;
+}
+#footer{
+padding:3px;
+height:40px;
+background-color:#333333;
+color:#fff;
+text-align:center;
+-moz-border-radius-bottomleft: 25px;
+-moz-border-radius-bottomright: 25px;
+}
+#content{
+min-height:600px;
+height:auto; 
+background-color:#3bbdcd;
+padding-left:10px;
+}
+#menu{ 
+min-width:100%;
+overflow:hidden; 
+height:45px; 
+}
+#menu ul{ margin:0px; padding:0px; list-style:none;}
+#menu ul li{ 
+float:left; 
+width:20%; 
+position:relative;
+}
+#menu ul li a{ 
+text-decoration:none; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size:14px; 
+display:block; 
+background:#2d3d4c; 
+color:#ffffff; 
+line-height:45px; 
+text-align:center;
+}
+#menu ul li a:hover{ 
+background:#3bbdcd; 
+color:#000000;
+}
+#menu ul ul { 
+position:relative; 
+visibility:hidden;
+}
+#menu ul li:hover ul{ visibility:visible;}
+#menu ul li:hover ul li{ float:left;}
+
+#view{
+border:2px solid #c4c8cc;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+top:50px;
+width:98%;
+min-height:227px;
+height:auto;
+}
+
+#image{
+border:1px;
+float:left;
+margin-left:20px;
+margin-top:8px;
+padding:5px;
+border:1px solid red;
+}
+
+#details{
+border:1px;
+float:right;
+margin-right:20px;
+margin-top:8px;
+}
+#viewdetails{
+border:2px solid #c4c8cc;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+position:relative;
+top:50px;
+width:98%;
+min-height:400px;
+height:auto;
+}
+
+#missingimage{
+border:1px;
+float:left;
+margin-left:20px;
+margin-top:8px;
+padding-left:0px;
+border:1px solid red;
+}
+
+#missingdetails{
+border:1px;
+float:right;
+margin-right:20px;
+margin-top:8px;
+padding-right:10px;
+}
+#comments{
+margin-top:70px;
+}
+#home td{
+border:2px solid #c4c8cc;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+padding:5px;
+top:1px;
+}
